@@ -3,7 +3,6 @@ import json
 import subprocess
 import unittest
 from pathlib import Path
-from gtts import gTTS
 
 
 class TestMeetingAgentE2E(unittest.TestCase):

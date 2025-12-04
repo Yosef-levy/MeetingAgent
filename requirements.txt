@@ -1,0 +1,29 @@
+# Environment
+python-dotenv>=1.0.0
+
+# Whisper ASR
+openai-whisper>=20231117
+ffmpeg-python>=0.2.0
+numpy>=1.24.0
+
+# OpenAI API
+openai>=1.12.0
+requests>=2.31.0
+
+# Data validation
+pydantic>=2.6.0
+pydantic_core>=2.6.3
+
+# Terminal output formatting
+rich>=13.7.0
+
+# Retry logic
+tenacity>=8.2.3
+
+# Email utilities (smtplib + email are built-in)
+# No package required
+
+# Testing (optional)
+gTTS>=2.3.2
+pytest>=7.4.0
+pytest-cov>=4.1.0

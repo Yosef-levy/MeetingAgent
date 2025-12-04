@@ -2,8 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os, json, argparse, tempfile
-from dataclasses import dataclass
-from typing import List, Optional, Dict, Any, Union
+from typing import List, Optional, Dict, Any
 
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field, field_validator

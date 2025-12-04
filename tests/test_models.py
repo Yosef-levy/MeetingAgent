@@ -1,6 +1,5 @@
 import unittest
 
-import meeting_agent
 from meeting_agent import MeetingAnalysis, ActionItem
 
 
